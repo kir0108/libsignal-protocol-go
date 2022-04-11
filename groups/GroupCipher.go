@@ -2,12 +2,12 @@ package groups
 
 import (
 	"errors"
-	"github.com/RadicalApp/libsignal-protocol-go/cipher"
-	"github.com/RadicalApp/libsignal-protocol-go/ecc"
-	"github.com/RadicalApp/libsignal-protocol-go/groups/ratchet"
-	"github.com/RadicalApp/libsignal-protocol-go/groups/state/record"
-	"github.com/RadicalApp/libsignal-protocol-go/groups/state/store"
-	"github.com/RadicalApp/libsignal-protocol-go/protocol"
+	"github.com/kir0108/libsignal-protocol-go/cipher"
+	"github.com/kir0108/libsignal-protocol-go/ecc"
+	"github.com/kir0108/libsignal-protocol-go/groups/ratchet"
+	"github.com/kir0108/libsignal-protocol-go/groups/state/record"
+	"github.com/kir0108/libsignal-protocol-go/groups/state/store"
+	"github.com/kir0108/libsignal-protocol-go/protocol"
 	"strconv"
 )
 

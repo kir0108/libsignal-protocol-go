@@ -1,17 +1,17 @@
 package record
 
 import (
-	"github.com/RadicalApp/libsignal-protocol-go/ecc"
-	"github.com/RadicalApp/libsignal-protocol-go/kdf"
-	"github.com/RadicalApp/libsignal-protocol-go/keys/chain"
-	"github.com/RadicalApp/libsignal-protocol-go/keys/identity"
-	"github.com/RadicalApp/libsignal-protocol-go/keys/message"
-	"github.com/RadicalApp/libsignal-protocol-go/keys/root"
-	"github.com/RadicalApp/libsignal-protocol-go/keys/session"
-	"github.com/RadicalApp/libsignal-protocol-go/logger"
-	"github.com/RadicalApp/libsignal-protocol-go/util/bytehelper"
-	"github.com/RadicalApp/libsignal-protocol-go/util/errorhelper"
-	"github.com/RadicalApp/libsignal-protocol-go/util/optional"
+	"github.com/kir0108/libsignal-protocol-go/ecc"
+	"github.com/kir0108/libsignal-protocol-go/kdf"
+	"github.com/kir0108/libsignal-protocol-go/keys/chain"
+	"github.com/kir0108/libsignal-protocol-go/keys/identity"
+	"github.com/kir0108/libsignal-protocol-go/keys/message"
+	"github.com/kir0108/libsignal-protocol-go/keys/root"
+	"github.com/kir0108/libsignal-protocol-go/keys/session"
+	"github.com/kir0108/libsignal-protocol-go/logger"
+	"github.com/kir0108/libsignal-protocol-go/util/bytehelper"
+	"github.com/kir0108/libsignal-protocol-go/util/errorhelper"
+	"github.com/kir0108/libsignal-protocol-go/util/optional"
 )
 
 const maxMessageKeys int = 2000

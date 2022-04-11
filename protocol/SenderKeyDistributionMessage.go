@@ -2,7 +2,7 @@ package protocol
 
 import (
 	"errors"
-	"github.com/RadicalApp/libsignal-protocol-go/ecc"
+	"github.com/kir0108/libsignal-protocol-go/ecc"
 	"strconv"
 )
 

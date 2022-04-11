@@ -2,15 +2,15 @@ package session
 
 import (
 	"errors"
-	"github.com/RadicalApp/libsignal-protocol-go/cipher"
-	"github.com/RadicalApp/libsignal-protocol-go/ecc"
-	"github.com/RadicalApp/libsignal-protocol-go/keys/chain"
-	"github.com/RadicalApp/libsignal-protocol-go/keys/message"
-	"github.com/RadicalApp/libsignal-protocol-go/logger"
-	"github.com/RadicalApp/libsignal-protocol-go/protocol"
-	"github.com/RadicalApp/libsignal-protocol-go/state/record"
-	"github.com/RadicalApp/libsignal-protocol-go/state/store"
-	"github.com/RadicalApp/libsignal-protocol-go/util/bytehelper"
+	"github.com/kir0108/libsignal-protocol-go/cipher"
+	"github.com/kir0108/libsignal-protocol-go/ecc"
+	"github.com/kir0108/libsignal-protocol-go/keys/chain"
+	"github.com/kir0108/libsignal-protocol-go/keys/message"
+	"github.com/kir0108/libsignal-protocol-go/logger"
+	"github.com/kir0108/libsignal-protocol-go/protocol"
+	"github.com/kir0108/libsignal-protocol-go/state/record"
+	"github.com/kir0108/libsignal-protocol-go/state/store"
+	"github.com/kir0108/libsignal-protocol-go/util/bytehelper"
 	"strconv"
 )
 

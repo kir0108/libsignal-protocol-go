@@ -4,7 +4,7 @@ import (
 	"crypto/rand"
 	"errors"
 	"github.com/RadicalApp/complete"
-	"github.com/RadicalApp/libsignal-protocol-go/logger"
+	"github.com/kir0108/libsignal-protocol-go/logger"
 	"golang.org/x/crypto/curve25519"
 	"io"
 )

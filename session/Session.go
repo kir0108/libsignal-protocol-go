@@ -3,16 +3,16 @@ package session
 
 import (
 	"errors"
-	"github.com/RadicalApp/libsignal-protocol-go/ecc"
-	"github.com/RadicalApp/libsignal-protocol-go/keys/prekey"
-	"github.com/RadicalApp/libsignal-protocol-go/logger"
-	"github.com/RadicalApp/libsignal-protocol-go/protocol"
-	"github.com/RadicalApp/libsignal-protocol-go/ratchet"
-	"github.com/RadicalApp/libsignal-protocol-go/serialize"
-	"github.com/RadicalApp/libsignal-protocol-go/state/record"
-	"github.com/RadicalApp/libsignal-protocol-go/state/store"
-	"github.com/RadicalApp/libsignal-protocol-go/util/medium"
-	"github.com/RadicalApp/libsignal-protocol-go/util/optional"
+	"github.com/kir0108/libsignal-protocol-go/ecc"
+	"github.com/kir0108/libsignal-protocol-go/keys/prekey"
+	"github.com/kir0108/libsignal-protocol-go/logger"
+	"github.com/kir0108/libsignal-protocol-go/protocol"
+	"github.com/kir0108/libsignal-protocol-go/ratchet"
+	"github.com/kir0108/libsignal-protocol-go/serialize"
+	"github.com/kir0108/libsignal-protocol-go/state/record"
+	"github.com/kir0108/libsignal-protocol-go/state/store"
+	"github.com/kir0108/libsignal-protocol-go/util/medium"
+	"github.com/kir0108/libsignal-protocol-go/util/optional"
 )
 
 // Define error constants used for error messages.
